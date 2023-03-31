@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descifrar</title>
+    <link rel="stylesheet" href="styleDESCIFRAR.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" id="miLogo" href="#" width="200" height="100">
+                </a>
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About Cipher</a>
+                <a href="#">Portafolio</a>
+                <a href="#">Nosotros</a>
+                <img src="images/usuario.png" id="miUsuario" href="#">
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <input class="input1" type="text" style="text-transform:uppercase;" 
+            onkeyup="javascript:this.value=this.value.toUpperCase();" 
+            name="texto" id="text" placeholder="ESCRIBE EL TEXTO QUE QUIERES DESCIFRAR (SOLO MAYUSCULAS Y SIN Ñ)">
+            <input class="input2" type="number" name="offset" id="offset" placeholder="OFFSET" min="1" max="26" >
+            <input class="input3" type="submit" value="D E S C I F R A R" id="btnSubmit">
+            <input class="input4" type="text" style="text-transform:uppercase;" name="resultado" id="result" 
+            placeholder="RESULTADO DESCIFRADO">
+        </div>
+    </main>
+
+    <script type="module" src="./pagDescifrar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+*{margin:0; padding:0;}
+
+/* .fondo {
+    background-color: rgb(235, 92, 235, 40%);
+    width: 100%;
+} */
+
+body {
+    background-color: #EB5CEB;
+    background-position: center center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;   
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: #4E3FA0;
+    margin-top: 20px;
+    border-top-right-radius: 90px;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    float:left;
+    cursor: pointer
+}
+
+header nav {
+    float: right;
+    line-height: 150px;
+}
+
+header nav a {
+    display: inline-block;
+    color: #F9F9F9;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+header nav img {
+    width: 22px;
+}
+
+header nav a:hover {
+    background: #EB5CEB;
+    border-radius: 20px ;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.input1 {
+    width: 600px;
+    height: 120px;
+    margin-top: 100px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;  
+}
+.input2 {
+    width: 120px;
+    height: 25px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 7px;  
+}
+
+.input3 {
+    width: 500px;
+    height: 40px;
+    margin-top: 50px;
+    background-color: #39782f;
+    color: #F9F9F9;
+    border-style: solid;
+    border-color: #F9F9F9;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;  
+    cursor: pointer;
+}
+
+.input4 {
+    width: 600px;
+    height: 120px;
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;  
+}
